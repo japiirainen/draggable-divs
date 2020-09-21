@@ -9,9 +9,11 @@
   position: absolute;
   width: 100px;
   height: 100px;
+  color: red;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   background: #c8e6c9;
   color: black;
   cursor: move;
@@ -33,4 +35,32 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.header {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.5);
+  transform: translate(-50%);
+}
+
+@media (max-width: 640px) {
+  .header {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    transform: translate(-50%);
+  }
+
+  .add {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 15;
+    font-size: small
+  }
 }
