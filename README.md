@@ -1,3 +1,3 @@
 # awesome dragging with *recoiljs*
 
-demo at:
+demo at: https://draggable-divs.vercel.app/
